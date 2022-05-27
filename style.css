@@ -103,8 +103,8 @@
 
 .recent-profesional {
   background: #e5e5e5;
-  margin-left: 6.4%;
-  margin-right: 7%;
+  margin-left: 20px;
+  margin-right: 20px;
   width: 86.6%;
 }
 
@@ -280,10 +280,9 @@ a:hover {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 44px;
   color: #fff;
-  overflow: hidden;
 }
 
 .p2 {
@@ -428,11 +427,22 @@ a:hover {
   color: white;
 }
 
-.language > h3 {
+.lan {
   display: inline-flex;
   width: 60%;
   margin-left: 20%;
   margin-top: 100px;
+}
+
+.lan > img {
+  width: 30px;
+  height: 30px;
+  background: #ff6b00;
+  transform: rotate(-30deg);
+}
+
+.lan > h3 {
+  margin-left: 20px;
   color: white;
   font-family: sans-serif;
   font-style: normal;
@@ -457,11 +467,20 @@ a:hover {
   line-height: 43px;
 }
 
-.framwork > h3 {
+.frm {
   display: inline-flex;
   width: 60%;
   margin-left: 20%;
   margin-top: 100px;
+}
+
+.frm > img {
+  width: 30px;
+  height: 40px;
+}
+
+.frm > h3 {
+  margin-left: 20px;
   color: white;
   font-family: sans-serif;
   font-style: normal;
