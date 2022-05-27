@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Inter', sans-serif;
 }
 
 .text-color {
@@ -104,8 +104,8 @@
 .recent-profesional {
   background: #e5e5e5;
   margin-left: 6.4%;
-  margin-right: 6.4%;
-  width: 87.2%;
+  margin-right: 7%;
+  width: 86.6%;
 }
 
 .gridd {
@@ -138,11 +138,9 @@
   height: auto;
   display: flex;
   position: relative;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
+  margin-left: 2.5%;
+  width: 100%;
   margin-top: 2.5%;
-  align-self: center;
 }
 
 .main-image {
@@ -153,19 +151,19 @@
 }
 
 .H2 {
+  margin-left: 0;
   position: relative;
   width: 90%;
   margin-top: 5%;
-  margin-left: 10%;
   font-size: 18px;
   color: #1c1a19;
   order: 0;
 }
 
-.p-recent {
+.p-recent > p {
   position: relative;
   width: 80%;
-  margin-left: 10%;
+  margin-left: 0;
   margin-right: 10%;
   flex: 1;
   overflow: hidden;
@@ -183,7 +181,7 @@
   flex: 1;
   list-style-type: none;
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 0%;
   margin-right: 10%;
   width: 100%;
   flex-wrap: wrap;
@@ -192,6 +190,13 @@
 .buttons-0 > li > button {
   border: 1px solid #8993a4;
   padding: 10px;
+  background: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
 }
 
 .css0 {
@@ -211,14 +216,14 @@
 }
 
 .see-project {
+  display: flex;
+  flex: 1;
+  width: 130px;
+  height: 48px;
   position: relative;
   margin-top: 20px;
-  width: 40%;
-  color: white;
   background-color: #ff6b00;
-  height: 30px;
-  margin-bottom: 0;
-  margin-left: 12px;
+  margin-left: 0;
   align-items: center;
 }
 
@@ -232,6 +237,7 @@
   display: flex;
   letter-spacing: 0.03em;
   color: #fff;
+  align-self: center;
 }
 
 .see-project > a :hover {
@@ -258,18 +264,16 @@ a:hover {
   flex: 1;
   justify-content: center;
   position: relative;
-  margin-left: 20px;
-  width: 100vw;
-  height: 40vh;
+  width: 90vw;
+  height: 50vh;
   background-image: url(image/background.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
 .H3 {
   position: relative;
-  margin-top: 22%;
+  margin-top: 30%;
   width: 90%;
   height: 81px;
   left: 10px;
@@ -289,15 +293,57 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  margin-top: 5%;
+  margin-left: 10px;
+}
+
+.buttons-1 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 5%;
+  margin-left: 0;
+  margin-right: 10%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.buttons-1 > li > button {
+  border: 1px solid #8993a4;
+  padding: 10px;
+}
+
+.buttons-1 > li > button :hover {
+  border: 2px solid blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.html1 {
+  margin-left: 20%;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.bootstrap1 {
+  margin-left: 30%;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.ruby1 {
+  margin-left: 70%;
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .see-project-1 {
   display: flex;
+  margin-top: 20px;
   position: relative;
   color: white;
   background-color: #ff6b00;
-  height: 40px;
+  height: 48px;
   justify-items: center;
+  align-items: center;
   width: 100%;
 }
 
