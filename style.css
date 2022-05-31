@@ -537,59 +537,64 @@ a:hover {
   line-height: 43px;
 }
 
+/* contact forms */
 .forms {
   display: flex;
   flex-direction: column;
 }
+
 .upper-form {
   display: flex;
   flex-direction: column;
   margin: 2%;
 }
- .forms > p{
+
+.forms > p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
- }
+  color: #172b4d;
+}
+
 input {
   height: 50px;
   margin: 10px 20px 20px 20px;
 }
+
 input:first-child,
-input:nth-child(2){
-border: none;
-border-bottom: 1px solid  #DBD8D7 ;
-} 
+input:nth-child(2) {
+  border: none;
+  border-bottom: 1px solid  #dbd8d7;
+}
+
 input:nth-child(3) {
   border: none;
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   height: 115px;
 }
 
-input:last-child{
-width: 107px;
+input:last-child {
+  width: 107px;
   height: 48px;
-
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 24px;
-letter-spacing: 0.03em;
-background-color: #FF6B00;
-color: #FFFFFF;
-margin: auto;
-border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background-color: #ff6b00;
+  color: #fff;
+  margin: auto;
+  border: none;
 }
 
-input:last-child:hover{
-  background-color: #FFF5E1;
-border: 1px solid #F55800;
-color: #F55800;
+input:last-child:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .footer {
@@ -598,24 +603,24 @@ color: #F55800;
 }
 
 .social-links {
-  margin: auto;
+  margin-left: 28%;
   display: flex;
-
 }
+
 .social-links > img {
   margin-right: 30px;
 }
 
 hr:first-child {
-  background-color: #DFE1E6;
+  background-color: #dfe1e6;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
 .bottom-line {
-  width: 30%;
+  width: 35%;
   height: 5px;
-  background: #0D151E;
-   border-radius: 10px;
-   margin: 35px auto 15px auto ;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: 35px auto 15px auto;
 }
