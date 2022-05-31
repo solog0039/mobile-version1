@@ -536,3 +536,58 @@ a:hover {
   font-size: 22px;
   line-height: 43px;
 }
+
+.forms {
+  display: flex;
+  flex-direction: column;
+}
+.upper-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+ .forms > p{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+ }
+input {
+  height: 50px;
+  margin: 10px 20px 20px 20px;
+}
+input:first-child,
+input:nth-child(2){
+border: none;
+border-bottom: 1px solid  #DBD8D7 ;
+} 
+input:nth-child(3) {
+  border: none;
+  background-color: #FBF8F7;
+  height: 115px;
+}
+
+input:last-child{
+width: 107px;
+  height: 48px;
+
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+letter-spacing: 0.03em;
+background-color: #FF6B00;
+color: #FFFFFF;
+margin: auto;
+border: none;
+}
+
+input:last-child:hover{
+  background-color: #FFF5E1;
+border: 1px solid #F55800;
+color: #F55800;
+}
