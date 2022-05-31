@@ -591,3 +591,45 @@ input:last-child:hover{
 border: 1px solid #F55800;
 color: #F55800;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  position: relative;
+  margin-left: 25%;
+}
+
+.linkedin {
+  margin-left: 4%;
+}
+
+.angel {
+  margin-left: 4%;
+}
+
+.twitter{
+  margin-left: 4%;
+}
+
+.Mail {
+  margin-left: 4%;
+}
+
+hr:first-child {
+  background-color: #DFE1E6;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+hr:last-child {
+  width: 30%;
+  height: 5px;
+  bottom: 8px;
+  background: #0D151E;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  /* margin-left: 30%; */
+}
