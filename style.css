@@ -581,7 +581,7 @@ input:nth-child(3) {
 input:last-child {
   width: 130px;
   height: 48px;
- text-align: center;
+  text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -613,9 +613,11 @@ input:last-child:hover {
 .social-links > img {
   margin-right: 30px;
 }
+
 .linkedin {
   opacity: 1;
 }
+
 hr:first-child {
   background-color: #dfe1e6;
   margin-top: 100px;
