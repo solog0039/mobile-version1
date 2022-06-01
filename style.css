@@ -553,7 +553,7 @@ a:hover {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 34px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
@@ -572,10 +572,13 @@ input:nth-child(2) {
   border-bottom: 1px solid #dbd8d7;
 }
 
-input:nth-child(3) {
+textarea {
   border: none;
   background-color: #fbf8f7;
   height: 115px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 input:last-child {
